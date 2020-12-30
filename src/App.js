@@ -28,6 +28,10 @@ export default function App() {
         <Route path="/" exact>
           <Dashboardv1 />
         </Route>
+        <Route path="/dashboardv1" exact>
+          <Dashboardv1 />
+        </Route>
+
         <Route path="/dashboardv2" exact>
           <Dashboardv2 />
         </Route>
