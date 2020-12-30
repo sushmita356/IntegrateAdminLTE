@@ -9,15 +9,17 @@ import Dashboardv2 from "./Screens/Dashboardv2";
 import Dashboardv3 from "./Screens/Dashboardv3";
 import Widgets from "./Screens/Widgets";
 import TopNavigation from "./Screens/TopNavigation";
-import TopNavSidebar from './Screens/TopNavSidebar';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import TopNavSidebar from "./Screens/TopNavSidebar";
 import Boxed from "./Screens/Boxed";
 import FixedSidebar from "./Screens/FixedSidebar";
 import FixedNavbar from "./Screens/FixedNavbar";
 import FixedFooter from "./Screens/FixedFooter";
-import Charts from './Screens/Charts';
+import Charts from "./Screens/Charts";
 import Flot from "./Screens/Flot";
 import Inline from "./Screens/Inline";
+
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import General from "./Screens/General";
 
 export default function App() {
   return (
@@ -66,17 +68,14 @@ export default function App() {
           <Charts />
         </Route>
         <Route path="/flot" exact>
-          <Flot/>
+          <Flot />
         </Route>
         <Route path="/Inline" exact>
-          <Inline/>
+          <Inline />
         </Route>
-
-
-
-
-
-
+        <Route path="/general" exact>
+          <General/>
+        </Route>
 
       </Router>
       <Footer />

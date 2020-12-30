@@ -188,7 +188,7 @@ export default function Menu() {
               </a>
               <ul className="nav nav-treeview">
                 <li className="nav-item">
-                  <a href="pages/UI/general.html" className="nav-link">
+                  <a href="./general" className="nav-link">
                     <i className="far fa-circle nav-icon" />
                     <p>General</p>
                   </a>
