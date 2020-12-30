@@ -57,7 +57,7 @@ export default function Menu() {
                 <li className="nav-item">
                   {/* <Link to="/">Home</Link> */}
 
-                  <a href="./dashboardv1" className="nav-link">
+                  <a href="#" className="nav-link">
                     <i className="far fa-circle nav-icon" />
                     <p>Dashboard v1</p>
                   </a>

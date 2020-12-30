@@ -25,7 +25,7 @@ export default function App() {
       <Header />
       <Menu />
       <Router>
-        <Route path="/dashboardv1" exact>
+        <Route path="/" exact>
           <Dashboardv1 />
         </Route>
         <Route path="/dashboardv2" exact>
