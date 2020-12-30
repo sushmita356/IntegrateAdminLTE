@@ -55,20 +55,22 @@ export default function Menu() {
               </a>
               <ul className="nav nav-treeview">
                 <li className="nav-item">
-                  <a href="./dashboard" className="nav-link">
+                  {/* <Link to="/">Home</Link> */}
+
+                  <a href="./dashboardv1" className="nav-link">
                     <i className="far fa-circle nav-icon" />
                     <p>Dashboard v1</p>
                   </a>
                 </li>
 
                 <li className="nav-item">
-                  <a href="./dashboard" className="nav-link">
+                  <a href="./dashboardv2" className="nav-link">
                     <i className="far fa-circle nav-icon" />
                     <p>Dashboard v2</p>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="./dashboard" className="nav-link active">
+                  <a href="./dashboardv3" className="nav-link active">
                     <i className="far fa-circle nav-icon" />
                     <p>Dashboard v3</p>
                   </a>
@@ -76,7 +78,7 @@ export default function Menu() {
               </ul>
             </li>
             <li className="nav-item">
-              <a href="pages/widgets.html" className="nav-link">
+              <a href="./widgets" className="nav-link">
                 <i className="nav-icon fas fa-th" />
                 <p>
                   Widgets
@@ -85,7 +87,7 @@ export default function Menu() {
               </a>
             </li>
             <li className="nav-item has-treeview">
-              <a href="#" className="nav-link">
+              <a href="./TopNavigation" className="nav-link">
                 <i className="nav-icon fas fa-copy" />
                 <p>
                   Layout Options
@@ -95,14 +97,14 @@ export default function Menu() {
               </a>
               <ul className="nav nav-treeview">
                 <li className="nav-item">
-                  <a href="pages/layout/top-nav.html" className="nav-link">
+                  <a href="./TopNavigation" className="nav-link">
                     <i className="far fa-circle nav-icon" />
                     <p>Top Navigation</p>
                   </a>
                 </li>
                 <li className="nav-item">
                   <a
-                    href="pages/layout/top-nav-sidebar.html"
+                    href="./TopNavSidebar"
                     className="nav-link"
                   >
                     <i className="far fa-circle nav-icon" />
@@ -110,14 +112,14 @@ export default function Menu() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="pages/layout/boxed.html" className="nav-link">
+                  <a href="./boxed" className="nav-link">
                     <i className="far fa-circle nav-icon" />
                     <p>Boxed</p>
                   </a>
                 </li>
                 <li className="nav-item">
                   <a
-                    href="pages/layout/fixed-sidebar.html"
+                    href="./fixedSidebar"
                     className="nav-link"
                   >
                     <i className="far fa-circle nav-icon" />
@@ -125,20 +127,20 @@ export default function Menu() {
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="pages/layout/fixed-topnav.html" className="nav-link">
+                  <a href="fixedNavbar" className="nav-link">
                     <i className="far fa-circle nav-icon" />
                     <p>Fixed Navbar</p>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="pages/layout/fixed-footer.html" className="nav-link">
+                  <a href="./FixedFooter" className="nav-link">
                     <i className="far fa-circle nav-icon" />
                     <p>Fixed Footer</p>
                   </a>
                 </li>
                 <li className="nav-item">
                   <a
-                    href="pages/layout/collapsed-sidebar.html"
+                    href="./collapsedSidebar"
                     className="nav-link"
                   >
                     <i className="far fa-circle nav-icon" />
