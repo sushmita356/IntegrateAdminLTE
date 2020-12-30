@@ -1,5 +1,5 @@
 import React from 'react';
-export default function Content(){
+export default function Dashboardv1(){
   return(
   <div className="content-wrapper">
     {/* Content Header (Page header) */}
