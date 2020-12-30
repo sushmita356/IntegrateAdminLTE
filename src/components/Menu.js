@@ -159,19 +159,19 @@ export default function Menu() {
               </a>
               <ul className="nav nav-treeview">
                 <li className="nav-item">
-                  <a href="pages/charts/chartjs.html" className="nav-link">
+                  <a href="./charts" className="nav-link">
                     <i className="far fa-circle nav-icon" />
                     <p>ChartJS</p>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="pages/charts/flot.html" className="nav-link">
+                  <a href="./flot" className="nav-link">
                     <i className="far fa-circle nav-icon" />
                     <p>Flot</p>
                   </a>
                 </li>
                 <li className="nav-item">
-                  <a href="pages/charts/inline.html" className="nav-link">
+                  <a href="./inline" className="nav-link">
                     <i className="far fa-circle nav-icon" />
                     <p>Inline</p>
                   </a>

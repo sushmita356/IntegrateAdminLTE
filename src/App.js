@@ -15,6 +15,9 @@ import Boxed from "./Screens/Boxed";
 import FixedSidebar from "./Screens/FixedSidebar";
 import FixedNavbar from "./Screens/FixedNavbar";
 import FixedFooter from "./Screens/FixedFooter";
+import Charts from './Screens/Charts';
+import Flot from "./Screens/Flot";
+import Inline from "./Screens/Inline";
 
 export default function App() {
   return (
@@ -55,6 +58,17 @@ export default function App() {
         <Route path="/collapsedSidebar" exact>
           <collapsedSidebar />
         </Route>
+        <Route path="/Charts" exact>
+          <Charts />
+        </Route>
+        <Route path="/flot" exact>
+          <Flot/>
+        </Route>
+        <Route path="/Inline" exact>
+          <Inline/>
+        </Route>
+
+
 
 
 
